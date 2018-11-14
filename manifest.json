@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "jquery.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon48.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js", "content.js" ],
+      "matches": [ "http://www.footlocker.com/*", "https://www.footlocker.com/*" ]
+   }, {
+      "js": [ "jquery.js", "checkout.js" ],
+      "matches": [ "*://www.footlocker.com/checkout/*", "*://www.eastbay.com/checkout/*", "*://www.footaction.com/checkout/*", "*://www.kidsfootlocker.com/checkout/*" ]
+   }, {
+      "js": [ "jquery.js", "kidsftl.js" ],
+      "matches": [ "*://www.kidsfootlocker.com/*" ]
+   } ],
+   "description": "Developed and sold by SFDoOM5",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon48.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "SFDoOM5 Footlocker Bot",
+   "options_page": "options.html",
+   "permissions": [ "storage", "tabs", "*://www.footlocker.com/*", "*://www.kidsfootlocker.com/*" ],
+   "version": "3.1"
+}
