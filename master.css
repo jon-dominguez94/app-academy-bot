@@ -3,7 +3,8 @@ body {
   margin: 0px;
   padding: 0px;
   background: url('images/yzy.png');
-  border: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   font-family: arial;
   color: white;
 }
@@ -12,6 +13,10 @@ body {
   height: 90px;
   width: inherit;
   border-bottom: 1px solid white;
+}
+
+.formContainer {
+  padding-bottom: 20px;
 }
 
 #fastHandle {
@@ -36,9 +41,18 @@ body {
   cursor: pointer;
 }
 
+.personal {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .idents {
   text-align: center;
   font-size: 12px;
   margin: 0;
   padding-top: 4px;
+}
+
+.label {
+  margin-top: 20px;
 }
