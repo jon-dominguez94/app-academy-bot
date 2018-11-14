@@ -8,7 +8,7 @@
    },
    "content_scripts": [ {
       "js": [ "jquery.js", "content.js" ],
-      "matches": [ "http://www.footlocker.com/*", "https://www.footlocker.com/*" ]
+      "matches": [ "*" ]
    } ],
    "description": "Developed by JONDoOM",
    "icons": {
