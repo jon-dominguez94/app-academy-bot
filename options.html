@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SFDoOM5 Footlocker Bot Options</title>
+<style type="text/css">
+
+  	body, html {
+  		width: 100%;
+  		height: 100%;
+  		font-family: sans-serif;
+  		background-color: #EEE;
+  		margin: 0;
+  		font-size: 14px;
+  	}
+  	.container {
+  		background-color: #FFF;
+  		min-height: 100%;
+  		width: 700px;
+  		margin: 0 auto;
+  		text-align: center;
+  		border-left: 1px solid #333;
+  		border-right: 1px solid #333;
+  	}
+
+  	.wrapper {
+  		padding-top: 20px;
+      padding-bottom: 20px;
+  	}
+
+  	.info-table {
+  		margin: 10px auto;
+  	}
+
+    td {
+      width: 200px;
+    }
+
+    tr {
+      height: 30px;
+    }
+
+  	h1 {
+  		margin: 0;
+
+  	}
+
+  	label {
+  		color: #333;
+  		font-weight: bold;
+  	}
+
+  	input[type=text] {
+  		width: 150px;
+  		height: 18px;
+  		padding: 4px;
+  		border-radius: 5px;
+      box-shadow: 0px 1px 5px #333 inset;
+  		border: 0;
+      color: #333;
+  	}
+
+    textarea {
+      padding: 4px;
+      border-radius: 5px;
+      box-shadow: 0px 1px 5px #333 inset;
+      border: 0;
+      color: #333;
+    }
+
+  	select {
+  		padding: 4px;
+  		border-radius: 5px;
+  		border: 1px solid #CCC; 	
+  		width: 150px;	
+      color: #333;
+  	}
+
+    button {
+      font-size: 16px;
+      padding: 4px;
+    }
+
+  	.select-small {
+  		width: 100px;
+  	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="wrapper">
+<h1>SFDoOM5 Footlocker Bot Options</h1>
+<table class="info-table">
+<tbody>
+<tr>
+<td>
+<label for>Primary Shoe Size</label>
+</td>
+<td>
+<select id="size">
+<option value="01.5">Select Size</option>
+<option value="03.5">3.5</option>
+<option value="04.0">4</option>
+<option value="04.5">4.5</option>
+<option value="05.0">5</option>
+<option value="05.5">5.5</option>
+<option value="06.0">6</option>
+<option value="06.5">6.5</option>
+<option value="07.0">7</option>
+<option value="07.5">7.5</option>
+<option value="08.0">8</option>
+<option value="08.5">8.5</option>
+<option value="09.0">9</option>
+<option value="09.5">9.5</option>
+<option value="10.0">10</option>
+<option value="10.5">10.5</option>
+<option value="11.0">11</option>
+<option value="11.5">11.5</option>
+<option value="12.0">12</option>
+<option value="12.5">12.5</option>
+<option value="13.0">13</option>
+<option value="14.0">14</option>
+<option value="15.0">15</option>
+<option value="16.0">16</option>
+<option value="17.0">17</option>
+<option value="18.0">18</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<label for>Backup Shoe Size</label>
+</td>
+<td>
+<select id="size2">
+<option value="01.5">Select Size</option>
+<option value="03.5">3.5</option>
+<option value="04.0">4</option>
+<option value="04.5">4.5</option>
+<option value="05.0">5</option>
+<option value="05.5">5.5</option>
+<option value="06.0">6</option>
+<option value="06.5">6.5</option>
+<option value="07.0">7</option>
+<option value="07.5">7.5</option>
+<option value="08.0">8</option>
+<option value="08.5">8.5</option>
+<option value="09.0">9</option>
+<option value="09.5">9.5</option>
+<option value="10.0">10</option>
+<option value="10.5">10.5</option>
+<option value="11.0">11</option>
+<option value="11.5">11.5</option>
+<option value="12.0">12</option>
+<option value="12.5">12.5</option>
+<option value="13.0">13</option>
+<option value="14.0">14</option>
+<option value="15.0">15</option>
+<option value="16.0">16</option>
+<option value="17.0">17</option>
+<option value="18.0">18</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<label for>Backup Shoe Size 2</label>
+</td>
+<td>
+<select id="size3">
+<option value="01.5">Select Size</option>
+<option value="03.5">3.5</option>
+<option value="04.0">4</option>
+<option value="04.5">4.5</option>
+<option value="05.0">5</option>
+<option value="05.5">5.5</option>
+<option value="06.0">6</option>
+<option value="06.5">6.5</option>
+<option value="07.0">7</option>
+<option value="07.5">7.5</option>
+<option value="08.0">8</option>
+<option value="08.5">8.5</option>
+<option value="09.0">9</option>
+<option value="09.5">9.5</option>
+<option value="10.0">10</option>
+<option value="10.5">10.5</option>
+<option value="11.0">11</option>
+<option value="11.5">11.5</option>
+<option value="12.0">12</option>
+<option value="12.5">12.5</option>
+<option value="13.0">13</option>
+<option value="14.0">14</option>
+<option value="15.0">15</option>
+<option value="16.0">16</option>
+<option value="17.0">17</option>
+<option value="18.0">18</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<label for>Add Speed</label>
+</td>
+<td>
+<select id="addSpeed">
+<option value>Select Speed</option>
+<option value="599147937792">1</option>
+<option value="0">2</option>
+<option value="4">3</option>
+<option value="10">4</option>
+<option value="250">5</option>
+<option value="500">6</option>
+<option value="750">7</option>
+<option value="1000">8</option>
+<option value="1250">9</option>
+<option value="1500">10</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+</td>
+<td>
+Choose how fast you want the bot to add to cart from range <font color="white">|</font>1-10 (1 being the fastest)<br><br>I would say 5 is the best balance between speed and safety
+
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<table class="info-table">
+<tbody>
+
+<tr>
+<td>
+</td>
+<td>
+<input type="checkbox" id="turnOnCheckout" value="false">
+<label for="turnOnCheckout">Turn On/Off Checkout</label>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<font color ="red"><b>You must fill in all the info (except Apt/Suite) for checkout to work properly</b></font>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Sign-in Info</h2>
+<table class="info-table" id="signin" style="display: table;">
+<tbody>
+
+<tr>
+<td>
+</td>
+<td>
+<input type="checkbox" id="newUser" value="false">
+<label for="newUser">New User</label>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="email">Sign-in email</label>
+</td>
+<td>
+<input id="email" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="password">Password</label>
+</td>
+<td>
+<input type="password" id="password" type="text">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Addresses will only fill out for new users. Footlocker will automatically used saved addresses for existing users</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<h2>Billing Information</h2>
+<table class="info-table" id="billing" style="display: table;">
+<tbody>
+
+<tr>
+<td>
+<label for="bfname">First Name</label>
+</td>
+<td>
+<input id="bfname" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="blname">Last Name</label>
+</td>
+<td>
+<input id="blname" type="text">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="baddress1">Address</label>
+</td>
+<td>
+<input id="baddress1" type="text">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="baddress2">Apt/Suite</label>
+</td>
+<td>
+<input id="baddress2" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="bcity">City</label>
+</td>
+<td>
+<input id="bcity" type="text">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="bstate">State</label>
+</td>
+<td>
+<input id="bstate" type="text">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Use state abbreviation. Ex: 'CA'</td>
+</tr>
+
+<tr>
+<td>
+<label for="bcountry">Country</label>
+</td>
+<td>
+<input id="bcountry" type="text">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Use country abbreviation. Ex: 'US'</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="bzip">Zip Code</label>
+</td>
+<td>
+<input id="bzip" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="bphone">Billing Phone</label>
+</td>
+<td>
+<input id="bphone" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+</td>
+<td>
+<input type="checkbox" id="sameBillingAddress" value="false">
+<label for="sameBillingAddress">Same Shipping/Billing Address</label>
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<h2>Shipping Information</h2>
+<table class="info-table" id="shipping" style="display: table;">
+<tbody>
+
+<tr>
+<td>
+<label for="fname">First Name</label>
+</td>
+<td>
+<input id="fname" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="lname">Last Name</label>
+</td>
+<td>
+<input id="lname" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="address1">Address</label>
+</td>
+<td>
+<input id="address1" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="address2">Apt/Suite</label>
+</td>
+<td>
+<input id="address2" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="city">City</label>
+</td>
+<td>
+<input id="city" type="text">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="state">State</label>
+</td>
+<td>
+<input id="state" type="text">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Use state abbreviation. Ex: 'CA'</td>
+</tr>
+
+<tr>
+<td>
+<label for="country">Country</label>
+</td>
+<td>
+<input id="country" type="text">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Use country abbreviation. Ex: 'US'</td>
+</tr>
+
+<tr>
+<td>
+<label for="zip">Zip Code</label>
+</td>
+<td>
+<input id="zip" type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="phone">Phone</label>
+</td>
+<td>
+<input id="phone" type="text">
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Payment Information</h2>
+<table class="info-table" id="paying" style="display: table;">
+<tbody>
+
+<tr>
+<td>
+<label for="cardType">Card Type</label>
+</td>
+<td>
+<select id="cardType">
+<option value="visa">Visa</option>
+<option value="mc">MasterCard</option>
+<option value="discover">Discover</option>
+<option value="amex">American Express</option>
+<option value="pp">Paypal</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+If you select Paypal, you will have to take over checkout manually. Chrome doesn't allow access to Paypal's site
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="cardNumber">Card Number</label>
+</td>
+<td>
+<input id="cardNumber" type="text">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label>Expiration Date</label>
+</td>
+<td>
+<select id="expireMonth" class="select-small">
+<option>Month</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+
+<select id="expireYear" class="select-small">
+<option>Year</option>
+<option value="13">2013</option>
+<option value="14">2014</option>
+<option value="15">2015</option>
+<option value="16">2016</option>
+<option value="17">2017</option>
+<option value="18">2018</option>
+<option value="19">2019</option>
+<option value="20">2020</option>
+<option value="21">2021</option>
+<option value="22">2022</option>
+<option value="23">2023</option>
+<option value="24">2024</option>
+<option value="25">2025</option>
+<option value="26">2026</option>
+<option value="27">2027</option>
+<option value="28">2028</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="ccv">Security Code</label>
+</td>
+<td>
+<input id="ccv" type="text">
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<button id="save">Save</button>
+<div>
+<div>
+<br>
+<span>
+If you purchased this product from anywhere besides SFDoOM5@gmail.com, you are not eligible for updates and your seller will be banned.
+</span>
+</div>
+</div>
+</div>
+</div>
+<script src="options.js"></script>
+</body>
+</html>

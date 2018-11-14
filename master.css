@@ -1,0 +1,44 @@
+body {
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  background: url('images/yzy.png');
+  border: 1px solid white;
+  font-family: arial;
+  color: white;
+}
+
+.logo, .logo img {
+  height: 90px;
+  width: inherit;
+  border-bottom: 1px solid white;
+}
+
+#fastHandle {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 7px;
+}
+
+.fhButton {
+  display: inline-block;
+  /* float: left; */
+  padding: 2px 7px 2px 7px;
+  border: solid 1px #000000;
+  margin: 3px 8px;
+  font-size: 11px;
+  font-weight: bolder;
+  color: black;
+  background: rgb(243, 243, 243);
+  width: 118px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.idents {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 4px;
+}
