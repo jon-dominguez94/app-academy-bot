@@ -66,4 +66,10 @@ body {
 #generate {
   display: flex;
   justify-content: center;
+  padding: 10px 0 ;
+}
+
+#generator {
+  width: 180px;
+  height: 60px;
 }
