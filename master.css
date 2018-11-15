@@ -16,14 +16,14 @@ body {
 }
 
 .formContainer {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #fastHandle {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 7px;
+  /* padding-top: 7px; */
 }
 
 .fhButton {
@@ -55,4 +55,10 @@ body {
 
 .label {
   margin-top: 20px;
+  padding-bottom: 7px;
+}
+
+#students {
+  display: flex;
+  justify-content: space-around;
 }
